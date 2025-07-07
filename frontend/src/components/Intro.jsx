@@ -19,6 +19,12 @@ function Intro() {
 					<div className="py-5 mx-auto">
 						<BulletList />
 					</div>
+					<div className="flex mx-auto mt-10">
+						<p className="mr-5">Jump to:</p>
+						<button className="px-5 mr-5 rounded-md border-1 border-white">Skills</button>
+						<button className="px-5 mr-5 rounded-md border-1 border-white">Projects</button>
+						<button className="px-5 mr-5 rounded-md border-1 border-white">Experience</button>
+					</div>
 				</div>
 				<div className="col-span-2 flex flex-col gap-2 items-center">
 					<img
