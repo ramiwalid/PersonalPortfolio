@@ -16,7 +16,7 @@ function BulletList() {
 						<span className="flex-shrink-0 mr-8 text-lg">
 							{item.emoji}
 						</span>
-						<span className="">
+						<span>
 							{item.text}
 						</span>
 					</li>
