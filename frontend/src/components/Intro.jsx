@@ -7,7 +7,7 @@ import BulletList from "./BulletList";
 function Intro() {
 	return (
 		<>
-			<div className="grid grid-cols-5 gap-4 pt-25 text-white font-mono h-full">
+			<div className="grid grid-cols-5 gap-4 pt-25 mt-25 text-white font-mono h-full">
 				<div className="col-span-3 flex flex-col gap-2">
 					<p className="text-4xl">
 						Hi, I&apos;m Rami!
@@ -21,7 +21,10 @@ function Intro() {
 					</div>
 					<div className="flex mx-auto mt-10">
 						<p className="mr-5">Jump to:</p>
-						<button className="px-5 mr-5 rounded-md border-1 border-white">Skills</button>
+						<button className="px-5 mr-5 rounded-md border-1 border-white"
+						onClick={() => {
+							document.getElementById('skills-section').scrollIntoView({ behavior: 'smooth' });
+						}}>Skills</button>
 						<button className="px-5 mr-5 rounded-md border-1 border-white">Projects</button>
 						<button className="px-5 mr-5 rounded-md border-1 border-white">Experience</button>
 					</div>
