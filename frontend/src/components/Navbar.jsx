@@ -4,7 +4,7 @@ import '../App.css'
 function Navbar() {
 	return (
 		<>
-			<div className="flex space-x-4 py-7 px-5 font-mono text-white">
+			<div className="flex space-x-4 py-7 max-h-20 px-5 font-mono text-white fixed top-0 right-0 left-0 bg-slate-900 z-100 mb-90">
 				<p className="text-lg ml-3"><a href="./index.html">Rami Walid</a></p>
 				<div className="ml-auto flex text-sm">
 					<button className="px-5"><a href="https://drive.google.com/file/d/1iryMl-rfi1R2AZR-UTdq0yofWY4JaPSn/view?usp=drive_link" target="_blank">Resume</a></button>
